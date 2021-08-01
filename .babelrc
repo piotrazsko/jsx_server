@@ -1,7 +1,3 @@
 {
-    "presets": ["@babel/preset-env"],
-    "plugins": [
-        "./plugin/index.mjs",
-        "@babel/plugin-transform-modules-commonjs"
-    ]
+    "plugins": ["./plugin/custom-jsx-plugin", "./plugin/jsx-syntax-parser"]
 }
